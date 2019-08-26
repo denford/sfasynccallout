@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="TestCalloutsController" >
+    <lightning:button label="Call Sync" title="Neutral action" onclick="{! c.handleSync }"/>
+    <lightning:button label="Call Async" title="Neutral action" onclick="{! c.handleAsync }"/>
+</aura:component>
