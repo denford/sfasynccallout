@@ -8,4 +8,4 @@ This project demonstrates how when calling an endpoint asynchronously from apex 
 4. On that Account record test the "Call Sync" and "Call Async" buttons, compare headers sent
 
 ## Key Code
-Most relevant Code is in the TestCallouts Aura Component, and the TestCalloutsController Apex class.
+Most relevant Code is in the [TestCallouts Aura Component](force-app/main/default/aura/TestCallouts), and the [TestCalloutsController Apex class](force-app/main/default/classes/TestCalloutsController.cls).
